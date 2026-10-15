@@ -1,6 +1,10 @@
 
 # Fractional Classification Loss (FCL)
 
+> 🚧 **Under construction**
+>
+> This repository currently contains documentation only. The PyTorch implementation, examples, and tests will be made publicly available upon acceptance of the paper. 
+
 **Adaptive robust loss function for classification with noisy labels. The robustness level automatically adjusts during training, without manual robustness parameter tuning.**
 
 PyTorch implementation of **Fractional Classification Loss (FCL)**, introduced in:
@@ -20,7 +24,7 @@ FCL combines fractional cross-entropy with MAE and introduces a single learnable
 ## Installation
 
 ```bash
-git clone https://github.com/<user>/fractional-classification-loss.git
+git clone https://github.com/mertcankurucu/fractional-classification-loss.git
 cd fractional-classification-loss
 pip install -e .            # needs PyTorch; the examples also need torchvision
 ```
